@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Juego de Preguntas</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="text-center">Juego de Preguntas</h1>
+    <div class="text-center mt-4">
+      <p id="question"></p>
+    </div>
+    <div class="text-center">
+      <div id="flag">
+        <img src="" alt="Bandera del país" id="flagImage" class="img-fluid">
+      </div>
+    </div>
+    <div class="text-center mt-4">
+      <div id="options">
+        <button class="btn btn-primary btn-custom" id="option1" disabled></button>
+        <button class="btn btn-primary btn-custom" id="option2" disabled></button>
+        <button class="btn btn-primary btn-custom" id="option3" disabled></button>
+        <button class="btn btn-primary btn-custom" id="option4" disabled></button>
+      </div>
+    </div>
+    <div id="respuestaCorrecta" style="display: none;"></div>
+    <div id="correctAnswers" style="display: none;"></div>
+    <div id="incorrectAnswers" style="display: none;"></div>
+  </div>
+  <script src="logica.js"></script>
+</body>
+
+</html>

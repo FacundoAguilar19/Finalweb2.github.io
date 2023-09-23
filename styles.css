@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+body {
+  font-family: 'Amatic SC', cursive;
+  font-size: 12.288px;
+  color: #000;
+  background-color: #0F1731;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 25.6px;
+  margin-top: 6.4px;
+  color: white;
+}
+
+#question {
+  font-size: 25.6px;
+  color: white;
+  margin-top: 6.4px;
+}
+
+.btn-custom {
+  display: block;
+  margin: 11.52px auto;
+  padding: 10.368px 20.736px;
+  font-size: 18.7712px;
+  width: 100%;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+#flagImage {
+  border: 2px solid black;
+  max-width: 48%;
+}
+
+#respuestaCorrecta, #correctAnswers, #incorrectAnswers {
+  font-size: 20px;
+  margin-top: 4px;
+  color: white;
+  display: block !important;
+  font-weight: bold;
+}
+
+.result-text {
+  font-size: 20px;
+  margin-top: 4px;
+  color: white;
+  display: block !important;
+  font-weight: bold;
+}
